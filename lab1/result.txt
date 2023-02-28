@@ -1,0 +1,5 @@
+The Result Of add 12,13,14,10 equal 49
+The Result Of mul 12,13,14,10 equal 21840
+The Result Of div 12,13,14,10 equal 0.006593406593406593
+The Result Of sub 12,13,14,10 equal -49
+The Result Of sub 10,9 equal -1
