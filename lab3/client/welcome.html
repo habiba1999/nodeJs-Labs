@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+            .container{
+            padding: 3%;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-around;
+        }
+        div{
+            width:40%;
+            text-align: center;
+            background-color: lavender;
+            padding: 3% 2%;
+            border-radius: 20px;
+            margin: 3%;
+        }
+        img {
+            border-radius: 50%;
+            margin-bottom: 3%;
+        }
+        p{
+            margin-top: 3%;
+            border-top: 1px solid rgb(164, 164, 164);
+            padding: 5% 3%;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    
+        <h1>Welcome <span>{name}</span></h1>
+        <div>
+            <h3>Your number:  <span>{number}</span></h3>
+            <h3>Your email: <span>{email}</span></h3>
+            <h3>Your Address: <span>{address}</span></h3>
+        </div>
+</body>
+</html>
